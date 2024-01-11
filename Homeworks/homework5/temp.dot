@@ -1,0 +1,9 @@
+strict digraph  {
+Input_0 [color=blue];
+Hidden_0_0 [color=green];
+Input_1 [color=blue];
+Output_0 [color=blue];
+Input_0 -> Hidden_0_0  [color=red];
+Hidden_0_0 -> Output_0  [color=red];
+Input_1 -> Hidden_0_0  [color=red];
+}
